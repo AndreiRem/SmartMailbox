@@ -1,6 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, Form
 from pathlib import Path
 import time
+import uvicorn
 
 app = FastAPI()
 
